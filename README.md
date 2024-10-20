@@ -13,10 +13,10 @@
 
 
 ## 👨🏻‍💻│기능 구현 목차
-###   1. [OpenGl 자기장 위치 게임 맵 HUD Render](https://github.com/DoubleOss/YDGround2_Open/blob/main/src/main/java/com/doubleos/yd/gui/GuiFriendship.java#L108)
-###   2. [스쿼드 멤버 플레이 편의 기능](https://github.com/DoubleOss/YDGround2_Open/blob/main/src/main/java/com/doubleos/yd/gui/GuiFriendship.java#L108)
-###   3. [OpenGL Infinite Scrolling Texture 구현](https://github.com/DoubleOss/YDGround2_Open/blob/main/src/main/java/com/doubleos/yd/gui/GuiFriendship.java#L108)
-###   4. [마지막 생존자 승리 연출](https://github.com/DoubleOss/YDGround2_Open/blob/main/src/main/java/com/doubleos/yd/gui/GuiFriendship.java#L108)
+###   1. [OpenGl 자기장 위치 게임 맵 HUD Render](https://github.com/DoubleOss/YDGround2_Open?tab=readme-ov-file#1-opengl-%EC%9E%90%EA%B8%B0%EC%9E%A5-%EC%9C%84%EC%B9%98-%EA%B2%8C%EC%9E%84-%EB%A7%B5-%EC%97%B0%EB%8F%99)
+###   2. [스쿼드 멤버 플레이 편의 기능](https://github.com/DoubleOss/YDGround2_Open?tab=readme-ov-file#2-%EC%8A%A4%EC%BF%BC%EB%93%9C-%EB%A9%A4%EB%B2%84-%ED%94%8C%EB%A0%88%EC%9D%B4-%ED%8E%B8%EC%9D%98-%EA%B8%B0%EB%8A%A5-1)
+###   3. [OpenGL Infinite Scrolling Texture 구현](https://github.com/DoubleOss/YDGround2_Open?tab=readme-ov-file#3-opengl-infinite-scrolling-texture-%EA%B5%AC%ED%98%84-1)
+###   4. [마지막 생존자 승리 연출](https://github.com/DoubleOss/YDGround2_Open?tab=readme-ov-file#4-%EB%A7%88%EC%A7%80%EB%A7%89-%EC%83%9D%EC%A1%B4%EC%9E%90-%EC%8A%B9%EB%A6%AC-%EC%97%B0%EC%B6%9C-1)
 
 ***
 
@@ -29,6 +29,7 @@
 > * ### [MAP Hud 적용 부분](https://github.com/DoubleOss/YDGround2_Open/blob/main/src/main/java/com/doubleos/yd/proxy/ClientProxy.java#L714)
 > * ### [스쿼드 Ping 렌더 ](https://github.com/DoubleOss/YDGround2_Open/blob/main/src/main/java/com/doubleos/yd/proxy/ClientProxy.java#L669)
 
+***
 
 ### 2. 스쿼드 멤버 플레이 편의 기능
 > * ### 스쿼드 간 맵 핑 공유
@@ -39,8 +40,9 @@
 > * ### [핑 클릭시 값 전송 함수](https://github.com/DoubleOss/YDGround2_Open/blob/main/src/main/java/com/doubleos/yd/proxy/ClientProxy.java#L265)
 > * ### [서버측 핑 값 패킷 도착시 해당 멤버에게 전송 부분](https://github.com/DoubleOss/YDGround2_Open/blob/main/src/main/java/com/doubleos/yd/packet/SPacketSendPingPos.java#L62)
 > * ### [스쿼드 게임시 멤버에게 자신의 체력 값 전송 부분 ](https://github.com/DoubleOss/YDGround2_Open/blob/main/src/main/java/com/doubleos/yd/proxy/ClientProxy.java#L295)
-> 
+>
 
+***
 
 ### 3. OpenGL Infinite Scrolling Texture 구현
 > * ### OpenGL Textrue U 좌표 값과 Player Yaw 대응한 나침반 HUD
@@ -48,6 +50,7 @@
 > ## 🔗 코드 링크
 > * ### [openGl Texutre UV 값 조절 활용 코드](https://github.com/DoubleOss/YDGround2_Open/blob/main/src/main/java/com/doubleos/yd/proxy/ClientProxy.java#L560)
 
+***
 
 ### 4. 마지막 생존자 승리 연출
 > * ### Tween Animation Alpha 적용
