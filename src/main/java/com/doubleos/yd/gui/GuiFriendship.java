@@ -105,11 +105,13 @@ public class GuiFriendship extends GuiScreen
         float random = (float) ((Math.random() * (10 - 5) + 5) * 0.1f);
 
 
+        // 프레임 호출 될 떄마다 랜덤 값으로 알파값 증가
         float partialTicksCurrection = (0.25f + random)  * fpsCurrection;
 
         if(alphaBack < 100)
         {
             alphaBack += partialTicksCurrection;
+            // 증가되는 알파값 ease Func 함수를 이용한 효과 연출
             alpha = easeOutCubic(alphaBack * 0.01f);
         }
         else
@@ -121,6 +123,7 @@ public class GuiFriendship extends GuiScreen
         minecraft.renderEngine.bindTexture(new ResourceLocation(Reference.MODID, "textures/guis/winner"+count+".png"));
         drawTexture(0, 0, width, height, 0, 0, 1, 1, 1, alpha);
 
+        //OpenGL 이용한 알파값 조절
         GlStateManager.pushMatrix();
         {
             float scaleFont = 3;
