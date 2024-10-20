@@ -13,10 +13,10 @@
 
 
 ## 👨🏻‍💻│기능 구현 목차
-###   1. [OpenGl 자기장 위치 게임 맵 HUD Render](https://github.com/DoubleOss/GroundWorld_Open?tab=readme-ov-file#1-%EB%A7%88%EC%9D%B8%ED%81%AC%EB%9E%98%ED%94%84%ED%8A%B8-%EB%8F%99%EC%98%81%EC%83%81-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EC%97%B0%EA%B2%B0)
-###   2. [스쿼드 멤버 플레이 편의 기능](https://github.com/DoubleOss/GroundWorld_Open?tab=readme-ov-file#2-%EB%A7%88%EC%9D%B8%ED%81%AC%EB%9E%98%ED%94%84%ED%8A%B8-tinysound-lib-%EC%97%B0%EB%8F%99)
-###   3. [OpenGL Infinite Scrolling Texture 구현](https://github.com/DoubleOss/GroundWorld_Open/tree/main?tab=readme-ov-file#3-%EB%A7%88%EC%9D%B8%ED%81%AC%EB%9E%98%ED%94%84%ED%8A%B8-%EC%95%84%EC%9D%B4%ED%85%9C-%EC%B6%94%EA%B0%80%EB%A5%BC-%EC%9C%84%ED%95%9C-%EB%93%B1%EB%A1%9D%EA%B3%BC%EC%A0%95-%EA%B0%84%EC%86%8C%ED%99%94)
-###   4. [마지막 생존자 승리 연출](https://github.com/DoubleOss/GroundWorld_Open?tab=readme-ov-file#3-hud-%EC%8B%9C%EC%8A%A4%ED%85%9C-1)
+###   1. [OpenGl 자기장 위치 게임 맵 HUD Render](https://github.com/DoubleOss/YDGround2_Open/blob/main/src/main/java/com/doubleos/yd/gui/GuiFriendship.java#L108)
+###   2. [스쿼드 멤버 플레이 편의 기능](https://github.com/DoubleOss/YDGround2_Open/blob/main/src/main/java/com/doubleos/yd/gui/GuiFriendship.java#L108)
+###   3. [OpenGL Infinite Scrolling Texture 구현](https://github.com/DoubleOss/YDGround2_Open/blob/main/src/main/java/com/doubleos/yd/gui/GuiFriendship.java#L108)
+###   4. [마지막 생존자 승리 연출](https://github.com/DoubleOss/YDGround2_Open/blob/main/src/main/java/com/doubleos/yd/gui/GuiFriendship.java#L108)
 
 ***
 
@@ -53,4 +53,4 @@
 > * ### Tween Animation Alpha 적용
 > ![2024-10-17 13;49;16](https://github.com/user-attachments/assets/e4116347-d69d-4e54-a41c-bc28449e9174)
 > ## 🔗 코드 링크
-> * ### Easing functions Animation(https://github.com/DoubleOss/GroundWorld_Open/blob/main/src/main/java/com/doubleos/gw/proxy/ClientProxy.java#L614)
+> * ### Easing functions Animation(https://github.com/DoubleOss/YDGround2_Open/blob/main/src/main/java/com/doubleos/yd/gui/GuiFriendship.java#L108)
