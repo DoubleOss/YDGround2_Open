@@ -53,4 +53,4 @@
 > * ### Tween Animation Alpha 적용
 > ![2024-10-17 13;49;16](https://github.com/user-attachments/assets/e4116347-d69d-4e54-a41c-bc28449e9174)
 > ## 🔗 코드 링크
-> * ### Easing functions Animation(https://github.com/DoubleOss/YDGround2_Open/blob/main/src/main/java/com/doubleos/yd/gui/GuiFriendship.java#L108)
+> * ### [Easing functions Animation](https://github.com/DoubleOss/YDGround2_Open/blob/main/src/main/java/com/doubleos/yd/gui/GuiFriendship.java#L108)
